@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomObjectsExample", "CustomObjectsExample.csproj", "{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174} = {CFE27D3D-8A1A-43F9-9387-8FD9E119E174}
+		{E967A1E1-37FF-4394-B793-6987A7958016} = {E967A1E1-37FF-4394-B793-6987A7958016}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeckleRhinoConverter", "\\Mac\Home\Documents\dev\Speckle.NET\SpeckleRhinoConverter\SpeckleRhinoConverter.csproj", "{E967A1E1-37FF-4394-B793-6987A7958016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeckleCore", "\\Mac\Home\Documents\dev\Speckle.NET\SpeckleCore\SpeckleCore\SpeckleCore.csproj", "{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Debug|x64.Build.0 = Debug|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Release|x64.ActiveCfg = Release|Any CPU
+		{BAFA226C-4DD8-41E1-B074-E55DEB1B0329}.Release|x64.Build.0 = Release|Any CPU
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Debug|x64.ActiveCfg = Debug|x64
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Debug|x64.Build.0 = Debug|x64
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Release|x64.ActiveCfg = Release|x64
+		{E967A1E1-37FF-4394-B793-6987A7958016}.Release|x64.Build.0 = Release|x64
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Debug|x64.Build.0 = Debug|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Release|x64.ActiveCfg = Release|Any CPU
+		{CFE27D3D-8A1A-43F9-9387-8FD9E119E174}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE7C1103-2DC3-4541-AE67-E649431808F2}
+	EndGlobalSection
+EndGlobal
